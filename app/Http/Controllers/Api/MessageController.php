@@ -12,7 +12,6 @@ class MessageController extends Controller
 {
     public function store(Request $request){
         try {
-            return 1;
             $request->validate([
                 'phone' => 'required|numeric|between:61000000,65999999',
                 'message' => 'required|string'
@@ -26,7 +25,10 @@ class MessageController extends Controller
             return response()->json(['status' => true], 201);
         }
         catch (\Exception $e){
-            return response()->json(['status' => false, $e->getMessage()], 500);
+            return response()->json([
+                'status' => false,
+                'message' => $e->getMessage()
+            ], 500);
         }
     }
 }
