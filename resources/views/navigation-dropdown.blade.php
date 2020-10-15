@@ -15,10 +15,10 @@
                     <x-jet-nav-link href="{{route('dashboard')}}" :active="request()->routeIs('dashboard')">
                         Esasy sahypa
                     </x-jet-nav-link>
-                    <x-jet-nav-link href="{{route('projects.index')}}" :active="request()->routeIs('users.index')">
+                    <x-jet-nav-link href="{{route('projects.index')}}" :active="request()->routeIs('projects.index')">
                         Proýektler
                     </x-jet-nav-link>
-                    <x-jet-nav-link href="{{route('apps.index')}}" :active="request()->routeIs('users.index')">
+                    <x-jet-nav-link href="{{route('apps.index')}}" :active="request()->routeIs('apps.index')">
                         Appler
                     </x-jet-nav-link>
                     <x-jet-nav-link href="{{route('messages.index')}}" :active="request()->routeIs('messages.index')">
@@ -83,7 +83,7 @@
             <x-jet-responsive-nav-link href="{{route('projects.index')}}" :active="request()->routeIs('projects')">
                 Proýektler
             </x-jet-responsive-nav-link>
-            <x-jet-responsive-nav-link href="{{route('apps.index')}}" :active="request()->routeIs('projects')">
+            <x-jet-responsive-nav-link href="{{route('apps.index')}}" :active="request()->routeIs('apps')">
                 Appler
             </x-jet-responsive-nav-link>
             <x-jet-responsive-nav-link href="{{route('messages.index')}}" :active="request()->routeIs('messages')">
