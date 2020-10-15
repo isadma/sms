@@ -232,15 +232,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mered\OneDrive\Desktop\ishler\laravel\SmsSocket\public\images\logo" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mered\OneDrive\Desktop\ishler\laravel\SmsSocket\resources\views\users" />
       <recent name="C:\Users\mered\OneDrive\Desktop\ishler\laravel\SmsSocket\resources\views" />
       <recent name="C:\Users\mered\OneDrive\Desktop\ishler\laravel\SmsSocket\app\Events" />
       <recent name="C:\Users\mered\OneDrive\Desktop\ishler\laravel\SmsSocket\resources\views\layouts" />
-      <recent name="C:\Users\mered\OneDrive\Desktop\ishler\laravel\SmsSocket\resources\views\users" />
       <recent name="C:\Users\mered\OneDrive\Desktop\ishler\laravel\SmsSocket\resources\lang" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mered\OneDrive\Desktop\ishler\laravel\SmsSocket\public\images\logo" />
     </key>
   </component>
   <component name="RunManager">
