@@ -19,7 +19,7 @@ Route::middleware(['auth:sanctum', 'web'])->group(function () {
     Route::get('/apps', 'UserController@apps')->name('apps.index');
     Route::get('/projects', 'UserController@projects')->name('projects.index');
     Route::post('/users', 'UserController@store')->name('users.store');
-    Route::delete('/users/user', 'UserController@destroy')->name('users.destroy');
+    Route::delete('/users/{user}', 'UserController@destroy')->name('users.destroy');
     Route::resource('/messages', 'MessageController')->only(['index', 'store']);
 
     Route::view('/docs', 'documentation')->name('docs');
