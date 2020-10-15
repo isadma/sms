@@ -63,9 +63,20 @@ class User extends Authenticatable
      *
      * @var array
      */
+
+    /**
+     * TYPES
+     *
+     *  project => clients, projects
+     *  app     => apps for to send sms
+     *  admin, null   => admin
+     *
+     */
+
     protected $fillable = [
         'name',
         'username',
+        'type',
         'password',
         'token',
         'api_token'

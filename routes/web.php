@@ -16,7 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::middleware(['auth:sanctum', 'web'])->group(function () {
     Route::get('/', 'HomeController@index')->name('dashboard');
 
-    Route::resource('/users', 'UserController')->only(['index', 'store', 'destroy']);
+    Route::resource('/apps', 'UserController')->only(['index', 'store', 'destroy']);
+    Route::resource('/projects', 'UserController')->only(['index', 'store', 'destroy']);
     Route::resource('/messages', 'MessageController')->only(['index', 'store']);
 
     Route::view('/docs', 'documentation')->name('docs');

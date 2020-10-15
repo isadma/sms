@@ -9,8 +9,13 @@ use Illuminate\Support\Str;
 class UserController extends Controller
 {
     public function index(){
-        $users = User::whereNull('password')->orderBy('name')->get();
-        return view('users.index', compact('users'));
+        $users = User::whereNull('password')->where('type', 'project')->orderBy('name')->get();
+        return view('users.projects', compact('users'));
+    }
+
+    public function apps(){
+        $users = User::whereNull('password')->where('type', 'app')->orderBy('name')->get();
+        return view('users.apps', compact('users'));
     }
 
     public function store(Request $request){
@@ -19,6 +24,7 @@ class UserController extends Controller
             User::create([
                 'name' => $request->name,
                 'token' => $token,
+                'type' => $request->type,
                 'api_token' => hash('sha256', $token),
             ]);
             return redirect()->back()->with(['success' => 'Proýekt üstünlikli goşuldy.']);

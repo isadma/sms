@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            Proýektler
+            Appler
         </h2>
     </x-slot>
 
@@ -25,6 +25,7 @@
                                             </button>
                                         </div>
                                         <div class="modal-body">
+                                            <input type="hidden" name="type" value="app">
                                             <div class="form-group">
                                                 <label for="name">Proýektiň ady</label>
                                                 <input type="text" class="form-control" id="name" name="name" placeholder="Ady" required>
@@ -62,7 +63,7 @@
                                             <form action="{{ route('users.destroy', $user->id) }}" method="POST" class="d-inline-block">
                                                 @csrf
                                                 @method('DELETE')
-                                                <a href="javascript:void(0)" onclick="if (confirm('Siz hakykatdanam şu proýekti pozmak isleýäňizmi?')) {this.parentElement.submit();}" class="btn btn-danger btn-sm">Poz</a>
+                                                <a href="javascript:void(0)" onclick="if (confirm('Siz hakykatdanam şu appi pozmak isleýäňizmi?')) {this.parentElement.submit();}" class="btn btn-danger btn-sm">Poz</a>
                                             </form>
                                         </td>
                                     </tr>
