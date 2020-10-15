@@ -13,7 +13,7 @@ class ChangeAdminTypeToAdminOnUsers extends Migration
      */
     public function up()
     {
-        foreach(\App\Models\User::whereNotNull('password') as $user ){
+        foreach(\App\Models\User::whereName('Admin') as $user ){
             $user->update(['type' => 'admin']);
         }
     }
