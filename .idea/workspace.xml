@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fad00a3d-21cc-4046-8e04-b8c69ce18cd9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../pursat/database/migrations/2020_09_24_120140_add_like_to_posts.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pusher/.idea/websocket.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/websockets.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/websockets.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../abuna_kone/.idea/abuna.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../dowletliDowran/.idea/dowletliDowran.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dowletliDowran/.idea/dowletliDowran.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dowletliDowran/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dowletliDowran/.idea/php.xml" afterDir="false" />
@@ -18,11 +21,18 @@
       <change beforePath="$PROJECT_DIR$/../pursat/.idea/pursat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pursat/.idea/pursat.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pursat/app/Http/Requests/VerifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pursat/app/Http/Requests/VerifyRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tkmbnk/public/tkmbnk.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../tkmbnk/public/tkmbnk.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../websocket/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket/.idea/websocket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/.idea/websocket.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../websocket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../websocket/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/config/broadcasting.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../websocket/config/websockets.php" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/config/websockets.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../websocket/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket/resources/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/resources/lang/en/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,6 +251,7 @@
       <workItem from="1600408320329" duration="1698000" />
       <workItem from="1600412441300" duration="20141000" />
       <workItem from="1600492243261" duration="2962000" />
+      <workItem from="1602751973739" duration="773000" />
     </task>
     <servers />
   </component>
