@@ -16,6 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::middleware(['auth:sanctum', 'web'])->group(function () {
     Route::get('/', 'HomeController@index')->name('dashboard');
 
+    Route::get('/test', function (){
+        event(new \App\Events\Test());
+    });
+
     Route::get('/apps', 'UserController@apps')->name('apps.index');
     Route::get('/projects', 'UserController@projects')->name('projects.index');
     Route::post('/users', 'UserController@store')->name('users.store');
