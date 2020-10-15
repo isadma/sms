@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fad00a3d-21cc-4046-8e04-b8c69ce18cd9" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../pursat/database/migrations/2020_09_24_120140_add_like_to_posts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pursat/database/migrations/2020_10_15_154037_add_shipping_price.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pusher/.idea/websocket.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../abuna_kone/.idea/abuna.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../dowletliDowran/.idea/dowletliDowran.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dowletliDowran/.idea/dowletliDowran.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dowletliDowran/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dowletliDowran/.idea/php.xml" afterDir="false" />
@@ -249,7 +251,7 @@
       <workItem from="1600408320329" duration="1698000" />
       <workItem from="1600412441300" duration="20141000" />
       <workItem from="1600492243261" duration="2962000" />
-      <workItem from="1602751973739" duration="4046000" />
+      <workItem from="1602751973739" duration="6235000" />
     </task>
     <servers />
   </component>
@@ -260,10 +262,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600432121774">
+    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602757128208">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600432121774" />
+    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1602757128208" />
     <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1600433967285">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -292,9 +294,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="566" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1600493321143" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1602756162869">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1602757131799">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1602756162869" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1602757131799" />
   </component>
 </project>

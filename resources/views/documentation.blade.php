@@ -13,7 +13,7 @@
                         <div class="col-12 col-md-12">
                             <ol>
                                 <li>
-                                    Ilki bilen, <a href="{{route('users.index')}}">Proýektler</a> sahypasyndan täze proýekt goşuň. Goşaňyzdan soň size <code>token</code> beriler.
+                                    Ilki bilen, <a href="{{route('projects.index.index')}}">Proýektler</a> sahypasyndan täze proýekt goşuň. Goşaňyzdan soň size <code>token</code> beriler.
                                     Girizilen proýektiň backend developerine <code>token</code> beriň. <code>token</code> gizlin ýagdaýynda saklanmalydyr, ýogsam <code>SMS APP</code> proýekt kellä geýiler.
                                 </li>
 
