@@ -8,7 +8,7 @@ use Illuminate\Support\Str;
 
 class UserController extends Controller
 {
-    public function index(){
+    public function projects(){
         $users = User::whereNull('password')->where('type', 'project')->orderBy('name')->get();
         return view('users.projects', compact('users'));
     }

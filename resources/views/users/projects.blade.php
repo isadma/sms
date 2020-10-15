@@ -16,7 +16,7 @@
                         <div class="modal fade" id="create" tabindex="-1" role="dialog" aria-labelledby="createTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
-                                    <form action="{{route('projects.store')}}" method="POST">
+                                    <form action="{{route('users.store')}}" method="POST">
                                         @csrf
                                         <div class="modal-header">
                                             <h5 class="modal-title" id="createTitle">Täze goş</h5>
@@ -60,7 +60,7 @@
                                         <td>{{$user->token}}</td>
                                         <td>{{date('d-m-y H:i', strtotime($user->created_at))}}</td>
                                         <td>
-                                            <form action="{{ route('projects.destroy', $user->id) }}" method="POST" class="d-inline-block">
+                                            <form action="{{ route('users.destroy', $user->id) }}" method="POST" class="d-inline-block">
                                                 @csrf
                                                 @method('DELETE')
                                                 <a href="javascript:void(0)" onclick="if (confirm('Siz hakykatdanam şu proýekti pozmak isleýäňizmi?')) {this.parentElement.submit();}" class="btn btn-danger btn-sm">Poz</a>
