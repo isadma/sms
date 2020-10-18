@@ -14,10 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware(['auth:api'])->group(function () {
+Route::middleware(['auth:api'])->name('api.')->group(function () {
     //for sms sender app
     Route::get('/conf', 'ConfController@conf')->name('conf');
 
     //for to send sms
-    Route::post('/messages/store', 'MessageController@store')->name('api.message.store');
+    Route::post('/messages/store', 'MessageController@store')->name('message.store');
 });
