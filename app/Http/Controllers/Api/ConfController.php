@@ -17,6 +17,7 @@ class ConfController extends Controller
                     "PUSHER_APP_KEY" => env('PUSHER_APP_KEY'),
                     "PUSHER_APP_CLUSTER" => env('PUSHER_APP_CLUSTER'),
                     "HOST" => request()->server('SERVER_ADDR'),
+                    "HOST_DOMAIN" => "pursat.com.tm",
                     "PORT" => (int) env('PUSHER_PORT'),
                     "ENCRYPTED" => true,
                     "CHANNEL" => "sms",
