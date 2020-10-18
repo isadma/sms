@@ -107,7 +107,7 @@
                                     <div class="row">
                                         <div class="col-12">Adres:</div>
                                         <div class="col-12">
-                                            <code>{{route('api.message.store')}}</code>
+                                            <code>{{route('api.conf')}}</code>
                                         </div>
                                     </div>
                                     <div class="row mt-2">

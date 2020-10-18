@@ -10,7 +10,6 @@
       <change afterPath="$PROJECT_DIR$/../pursat/database/migrations/2020_10_15_154037_add_shipping_price.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pusher/.idea/websocket.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../abuna_kone/.idea/abuna.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../dowletliDowran/.idea/dowletliDowran.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dowletliDowran/.idea/dowletliDowran.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dowletliDowran/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dowletliDowran/.idea/php.xml" afterDir="false" />
@@ -253,7 +252,8 @@
       <workItem from="1600408320329" duration="1698000" />
       <workItem from="1600412441300" duration="20141000" />
       <workItem from="1600492243261" duration="2962000" />
-      <workItem from="1602751973739" duration="10219000" />
+      <workItem from="1602751973739" duration="10457000" />
+      <workItem from="1602838174463" duration="590000" />
     </task>
     <servers />
   </component>
