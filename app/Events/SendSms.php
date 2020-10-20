@@ -46,6 +46,7 @@ class SendSms implements ShouldBroadcast
         return [
             'message_id' => $this->message->id,
             'phone' => '+993'.$this->message->phone,
+            'name' => $this->message->user->name,
             'message' => $this->message->message,
         ];
     }

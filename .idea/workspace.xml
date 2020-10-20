@@ -9,7 +9,7 @@
       <change afterPath="$PROJECT_DIR$/../pursat/database/migrations/2020_09_24_120140_add_like_to_posts.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pursat/database/migrations/2020_10_15_154037_add_shipping_price.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pusher/.idea/websocket.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/websockets.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/websockets.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../abuna_kone/.idea/abuna.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../dowletliDowran/.idea/dowletliDowran.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dowletliDowran/.idea/dowletliDowran.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dowletliDowran/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dowletliDowran/.idea/php.xml" afterDir="false" />
@@ -31,8 +31,10 @@
       <change beforePath="$PROJECT_DIR$/../websocket/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../websocket/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/config/broadcasting.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../websocket/config/websockets.php" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/config/websockets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../websocket/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/resources/js/bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../websocket/resources/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/resources/lang/en/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../websocket/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
