@@ -9,7 +9,11 @@
       <change afterPath="$PROJECT_DIR$/../pursat/database/migrations/2020_09_24_120140_add_like_to_posts.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pursat/database/migrations/2020_10_15_154037_add_shipping_price.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pusher/.idea/websocket.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/websockets.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/websockets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/tm/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/tk/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/tm/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/tk/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/tm/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/tk/passwords.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/tm/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/tk/validation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../abuna_kone/.idea/abuna.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../dowletliDowran/.idea/dowletliDowran.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dowletliDowran/.idea/dowletliDowran.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dowletliDowran/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dowletliDowran/.idea/php.xml" afterDir="false" />
@@ -256,6 +260,8 @@
       <workItem from="1600492243261" duration="2962000" />
       <workItem from="1602751973739" duration="10457000" />
       <workItem from="1602838174463" duration="590000" />
+      <workItem from="1603177306630" duration="2761000" />
+      <workItem from="1603863394774" duration="1306000" />
     </task>
     <servers />
   </component>
@@ -298,9 +304,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="566" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1600493321143" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1602764657301">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1603864313747">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1602764657301" />
+    <state x="443" y="160" width="672" height="477" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1603178314569" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1603864313747" />
   </component>
 </project>
