@@ -10,13 +10,13 @@ use Illuminate\Contracts\Broadcasting\ShouldBroadcastNow;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
 
-class SendSms implements ShouldBroadcastNow
+class SendSms implements ShouldBroadcast
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
     public $message;
 
-//    public $broadcastQueue = 'send-sms';
+    public $broadcastQueue = 'send-sms';
 
     /**
      * Create a new event instance.
