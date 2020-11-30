@@ -30,6 +30,14 @@
                                                 <label for="name">Proýektiň ady</label>
                                                 <input type="text" class="form-control" id="name" name="name" placeholder="Ady" required>
                                             </div>
+                                            <div class="form-group">
+                                                <label for="app_id">SMS App</label>
+                                                <select  class="form-control" id="app_id" name="app_id" required>
+                                                    @foreach($apps as $item)
+                                                        <option value="{{$item->id}}">{{$item->name}}</option>
+                                                    @endforeach
+                                                </select>
+                                            </div>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Yza</button>
@@ -47,6 +55,7 @@
                                 <tr>
                                     <th scope="col">#</th>
                                     <th scope="col">Ady</th>
+                                    <th scope="col">App</th>
                                     <th scope="col">Token</th>
                                     <th scope="col">Goşulan wagty</th>
                                     <th scope="col">Goşmaça</th>
@@ -57,19 +66,56 @@
                                     <tr>
                                         <th scope="row">{{$loop->iteration}}</th>
                                         <td>{{$user->name}}</td>
+                                        <td>{{$user->app->name}}</td>
                                         <td>{{$user->token}}</td>
                                         <td>{{date('d-m-y H:i', strtotime($user->created_at))}}</td>
                                         <td>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#update_{{$user->id}}" class="btn btn-primary btn-sm">Üýtget</a>
                                             <form action="{{ route('users.destroy', $user->id) }}" method="POST" class="d-inline-block">
                                                 @csrf
                                                 @method('DELETE')
                                                 <a href="javascript:void(0)" onclick="if (confirm('Siz hakykatdanam şu proýekti pozmak isleýäňizmi?')) {this.parentElement.submit();}" class="btn btn-danger btn-sm">Poz</a>
                                             </form>
+                                            <div class="modal fade" id="update_{{$user->id}}" tabindex="-1" role="dialog" aria-labelledby="update_{{$user->id}}Title" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <form action="{{route('users.update', $user->id)}}" method="POST">
+                                                            @csrf
+                                                            @method('PUT')
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="update_{{$user->id}}Title">Täze goş</h5>
+                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <input type="hidden" name="type" value="project">
+                                                                <div class="form-group">
+                                                                    <label for="name_{{$user->id}}">Proýektiň ady</label>
+                                                                    <input type="text" class="form-control" id="name_{{$user->id}}" name="name" placeholder="Ady" required value="{{$user->name}}">
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="app_id_{{$user->id}}">SMS App</label>
+                                                                    <select  class="form-control" id="app_id_{{$user->id}}" name="app_id" required>
+                                                                        @foreach($apps as $item)
+                                                                            <option value="{{$item->id}}" {{$item->id == $user->id ? 'selected' : ''}}>{{$item->name}}</option>
+                                                                        @endforeach
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Yza</button>
+                                                                <button type="submit" class="btn btn-primary">Üýtget</button>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </td>
                                     </tr>
                                 @empty
                                     <tr class="text-center">
-                                        <th colspan="5">Proýekt tapylmady, entäk goşulmandyr</th>
+                                        <th colspan="6">Proýekt tapylmady, entäk goşulmandyr</th>
                                     </tr>
                                 @endforelse
                                 </tbody>

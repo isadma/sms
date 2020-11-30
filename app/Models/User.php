@@ -49,6 +49,17 @@ use Laravel\Sanctum\HasApiTokens;
  * @property-read int|null $messages_count
  * @method static \Illuminate\Database\Eloquent\Builder|User whereCurrentTeamId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|User whereProfilePhotoPath($value)
+ * @property string|null $type
+ * @property string|null $api_token
+ * @property string|null $channel_name
+ * @property string|null $token
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereApiToken($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereChannelName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereToken($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereType($value)
+ * @property int|null $app_id
+ * @property-read User|null $app
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereAppId($value)
  */
 class User extends Authenticatable
 {
@@ -74,12 +85,14 @@ class User extends Authenticatable
      */
 
     protected $fillable = [
+        'app_id',
         'name',
         'username',
         'type',
         'password',
         'token',
-        'api_token'
+        'api_token',
+        'channel_name'
     ];
 
     /**
@@ -112,8 +125,22 @@ class User extends Authenticatable
         'profile_photo_url',
     ];
 
+    public static function strRandom($length) {
+        $chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $my_string = '';
+        for ($i = 0; $i < $length; $i++) {
+            $pos = mt_rand(0, strlen($chars) -1);
+            $my_string .= substr($chars, $pos, 1);
+        }
+        return $my_string;
+    }
+
     public function messages(){
         return $this->hasMany(Message::class);
+    }
+
+    public function app(){
+        return $this->belongsTo(User::class, 'app_id');
     }
 
     public function todayMessagesCount(){

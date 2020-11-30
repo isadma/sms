@@ -20,7 +20,7 @@ class ConfController extends Controller
                     "HOST_DOMAIN" => "pursat.com.tm",
                     "PORT" => (int) env('PUSHER_PORT'),
                     "ENCRYPTED" => true,
-                    "CHANNEL" => "sms",
+                    "CHANNEL" => Auth::user()->channel_name,
                     "EVENT" => ".sms.created",
                 ]
             ], 200);

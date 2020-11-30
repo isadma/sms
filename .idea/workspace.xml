@@ -5,11 +5,418 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fad00a3d-21cc-4046-8e04-b8c69ce18cd9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_30_235943_add_channel_name_to_users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_01_000902_add_app_id_to_users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/platform_check.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atlar/app/Events/CompetitionCompleted.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atlar/app/Http/Controllers/Api/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atlar/app/Http/Resources/BidRaceResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atlar/app/Http/Resources/BidResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atlar/app/Listeners/CompetitionCompletedListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atlar/app/SmsToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atlar/app/Traits/SendSms.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atlar/database/migrations/2020_11_28_215307_create_sms_tokens_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dowletliDowran/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getir_v2/vendor/sebastian/type/.idea/type.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myproject/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myproject/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myproject/.idea/laravel-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myproject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myproject/.idea/myproject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myproject/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myproject/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pursat/app/Traits/SMS.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pursat/database/migrations/2020_09_24_120140_add_like_to_posts.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pursat/database/migrations/2020_10_15_154037_add_shipping_price.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pursat/vendor/sebastian/type/.idea/type.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pusher/.idea/websocket.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/.idea/realestate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/.phpstorm.meta.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/.styleci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/_ide_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Actions/Fortify/CreateNewUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Actions/Fortify/PasswordValidationRules.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Actions/Fortify/ResetUserPassword.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Actions/Fortify/UpdateUserPassword.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Actions/Fortify/UpdateUserProfileInformation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Actions/Jetstream/DeleteUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Helper/AssetHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Http/Controllers/LocaleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Http/Middleware/Locale.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Providers/FortifyServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Providers/JetstreamServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/View/Components/AppLayout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/app/View/Components/GuestLayout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/config/cors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/config/fortify.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/config/jetstream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/config/sanctum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/database/migrations/2014_10_12_200000_add_two_factor_columns_to_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/database/migrations/2020_11_28_112949_create_sessions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/ace-responsive-menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/bootstrap-select.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/dashbord_navitaion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/fancybox_overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/font-awesome-animation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/images/bx_loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/images/controls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/images/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/isotope.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/lightbox/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/lightbox/lightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/lightbox/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/lightbox/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/lightbox/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/megadropdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/nivolightbox-themes/default/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/nivolightbox-themes/default/close@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/nivolightbox-themes/default/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/nivolightbox-themes/default/loading@2x.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/nivolightbox-themes/default/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/nivolightbox-themes/default/next@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/nivolightbox-themes/default/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/nivolightbox-themes/default/prev@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/owl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/simplebar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/timecounter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/ytplayer/raster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/ytplayer/raster@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/ytplayer/raster_dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/ytplayer/raster_dot@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/ytplayer/ytp-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/ytplayer/ytp-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/css/ytplayer/ytp-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/Flaticon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/Flaticon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/Flaticon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/Flaticon.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/font/Flaticon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/font/Flaticon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/font/Flaticon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/font/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/font/Flaticon.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/font/_flaticon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/font/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/font/flaticon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/fonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/images/default/card-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/images/default/card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/images/default/category.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/images/default/invoice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/images/default/login.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/images/default/product.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/images/default/revision.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/images/default/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/images/logo/logo-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/images/logo/logo-sm-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/images/logo/logo-sm-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/images/logo/logo-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/ace-responsive-menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/bootstrap-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/chart-custome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/dashboard-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/google-maps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/googlemaps1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/googlemaps2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/isotop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/jquery-migrate-3.0.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/jquery-scrolltofixed-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/jquery.counterup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/jquery.mmenu.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/parallax-new.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/parallax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/progressbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/scrollto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/simplebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/single-counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/smartuploader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/snackbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/tagsinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/timepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/js/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/mix-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/aside.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/brand.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/datatables.bundle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/@fortawesome/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/@fortawesome/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/@fortawesome/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/@fortawesome/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/@fortawesome/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/@fortawesome/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/@fortawesome/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/@fortawesome/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/@fortawesome/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/@fortawesome/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/@fortawesome/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/@fortawesome/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/@fortawesome/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/@fortawesome/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/@fortawesome/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/flaticon/Flaticon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/flaticon/Flaticon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/flaticon/Flaticon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/flaticon/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/flaticon2/Flaticon2.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/flaticon2/Flaticon2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/flaticon2/Flaticon2.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/flaticon2/Flaticon2.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/flaticon2/Flaticon2.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/keenthemes-icons/Ki.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/keenthemes-icons/Ki.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/keenthemes-icons/Ki.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/keenthemes-icons/Ki.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/keenthemes-icons/Ki.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/keenthemes-icons/ki.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/keenthemes-icons/ki.min.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/keenthemes-icons/ki.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/line-awesome/la-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/line-awesome/la-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/line-awesome/la-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/line-awesome/la-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/line-awesome/la-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/line-awesome/la-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/line-awesome/la-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/line-awesome/la-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/line-awesome/la-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/line-awesome/la-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/line-awesome/la-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/line-awesome/la-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/line-awesome/la-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/line-awesome/la-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/line-awesome/la-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/socicon/socicon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/socicon/socicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/socicon/socicon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/socicon/socicon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/summernote/summernote.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/summernote/summernote.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/summernote/summernote.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/fonts/summernote/summernote.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/invoice/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/invoice/fonts/mem5YaGs126MiZpBA-UN8rsOUehpOqc.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/invoice/fonts/mem5YaGs126MiZpBA-UN8rsOUuhp.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/invoice/fonts/mem5YaGs126MiZpBA-UN8rsOVuhpOqc.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/invoice/fonts/mem5YaGs126MiZpBA-UN8rsOX-hpOqc.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/invoice/fonts/mem5YaGs126MiZpBA-UN8rsOXOhpOqc.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/invoice/fonts/mem5YaGs126MiZpBA-UN8rsOXehpOqc.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/invoice/fonts/mem5YaGs126MiZpBA-UN8rsOXuhpOqc.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/invoice/fonts/mem6YaGs126MiZpBA-UFUK0Udc1UAw.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/invoice/fonts/mem6YaGs126MiZpBA-UFUK0Vdc1UAw.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/invoice/fonts/mem6YaGs126MiZpBA-UFUK0Wdc1UAw.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/invoice/fonts/mem6YaGs126MiZpBA-UFUK0Xdc1UAw.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/invoice/fonts/mem6YaGs126MiZpBA-UFUK0Zdc0.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/invoice/fonts/mem6YaGs126MiZpBA-UFUK0adc1UAw.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/invoice/fonts/mem6YaGs126MiZpBA-UFUK0ddc1UAw.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/invoice/fonts/mem8YaGs126MiZpBA-UFUZ0bbck.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/invoice/fonts/mem8YaGs126MiZpBA-UFVZ0b.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/invoice/fonts/mem8YaGs126MiZpBA-UFVp0bbck.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/invoice/fonts/mem8YaGs126MiZpBA-UFW50bbck.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/invoice/fonts/mem8YaGs126MiZpBA-UFWJ0bbck.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/invoice/fonts/mem8YaGs126MiZpBA-UFWZ0bbck.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/invoice/fonts/mem8YaGs126MiZpBA-UFWp0bbck.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/invoice/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/login.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/plugins.bundle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/prismjs.bundle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/style.bundle.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/web/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/web/flex-slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/web/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/web/fonts/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/web/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/web/fonts/flexslider-icon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/web/fonts/flexslider-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/web/fonts/flexslider-icon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/web/fonts/flexslider-icon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/web/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/web/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/web/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/web/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/web/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/web/fonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/web/fonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/web/fonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/web/fonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/web/owl-carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/css/web/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/app.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/axios.scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/ckeditor-classic.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/datatable.scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/datatables.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/plugins.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/prismjs.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/scripts.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/toastr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/toastr.scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/web/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/web/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/web/imgfix.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/web/jquery-2.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/web/jquery.counterup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/web/owl-carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/web/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/web/scrollreveal.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/panel/js/web/waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/public/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/resources/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/resources/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/resources/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/resources/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/resources/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/resources/lang/ru/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/resources/lang/ru/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/resources/lang/ru/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/resources/lang/ru/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/resources/lang/ru/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/resources/lang/tk/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/resources/lang/tk/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/resources/lang/tk/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/resources/lang/tk/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/resources/lang/tk/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/resources/views/admin/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/resources/views/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/resources/views/web/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/resources/views/web/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realestate/webpack.mix.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Events/SendSms.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Events/SendSms.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ConfController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ConfController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/MessageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/MessageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/projects.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/projects.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../abuna_kone/.idea/abuna.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../dowletliDowran/.idea/dowletliDowran.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dowletliDowran/.idea/dowletliDowran.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dowletliDowran/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dowletliDowran/.idea/php.xml" afterDir="false" />
@@ -258,6 +665,11 @@
       <workItem from="1602838174463" duration="590000" />
       <workItem from="1603177306630" duration="2761000" />
       <workItem from="1603863394774" duration="2797000" />
+      <workItem from="1604812842931" duration="271000" />
+      <workItem from="1606564943625" duration="60000" />
+      <workItem from="1606565827221" duration="611000" />
+      <workItem from="1606566696920" duration="7000" />
+      <workItem from="1606762599081" duration="1553000" />
     </task>
     <servers />
   </component>
@@ -300,10 +712,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="566" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1600493321143" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1603866173441">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="443" y="160" width="672" height="477" key="search.everywhere.popup" timestamp="1606764087177">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="443" y="160" width="672" height="477" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1603178314569" />
+    <state x="443" y="160" width="672" height="477" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1606764087177" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1603866173441" />
   </component>
 </project>

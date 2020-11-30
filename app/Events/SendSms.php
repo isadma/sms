@@ -18,14 +18,17 @@ class SendSms implements ShouldBroadcast
 
     public $broadcastQueue = 'send-sms';
 
+    public $channel_name = "sms";
+
     /**
      * Create a new event instance.
      *
      * @return void
      */
-    public function __construct(Message $message)
+    public function __construct(Message $message, $channel_name = "sms")
     {
         $this->message = $message;
+        $this->channel_name = $channel_name;
     }
 
     /**
@@ -35,7 +38,7 @@ class SendSms implements ShouldBroadcast
      */
     public function broadcastOn()
     {
-        return new Channel('sms');
+        return new Channel($this->channel_name);
     }
 
     public function broadcastAs(){

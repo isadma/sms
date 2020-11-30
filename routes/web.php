@@ -24,6 +24,7 @@ Route::middleware(['auth:sanctum', 'web'])->group(function () {
     Route::get('/projects', 'UserController@projects')->name('projects.index');
     Route::post('/users', 'UserController@store')->name('users.store');
     Route::delete('/users/{user}', 'UserController@destroy')->name('users.destroy');
+    Route::put('/users/{user}', 'UserController@update')->name('users.update');
     Route::resource('/messages', 'MessageController')->only(['index', 'store']);
 
     Route::view('/docs', 'documentation')->name('docs');
