@@ -25,7 +25,7 @@ class SendSms implements ShouldBroadcast
      *
      * @return void
      */
-    public function __construct(Message $message, $channel_name = "sms")
+    public function __construct(Message $message, $channel_name)
     {
         $this->message = $message;
         $this->channel_name = $channel_name;

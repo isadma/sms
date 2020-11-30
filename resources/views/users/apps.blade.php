@@ -47,6 +47,7 @@
                                 <tr>
                                     <th scope="col">#</th>
                                     <th scope="col">Ady</th>
+                                    <th scope="col">Channel</th>
                                     <th scope="col">Token</th>
                                     <th scope="col">Goşulan wagty</th>
                                     <th scope="col">Goşmaça</th>
@@ -57,6 +58,7 @@
                                     <tr>
                                         <th scope="row">{{$loop->iteration}}</th>
                                         <td>{{$user->name}}</td>
+                                        <td>{{$user->channel_name}}</td>
                                         <td>{{$user->token}}</td>
                                         <td>{{date('d-m-y H:i', strtotime($user->created_at))}}</td>
                                         <td>
@@ -69,7 +71,7 @@
                                     </tr>
                                 @empty
                                     <tr class="text-center">
-                                        <th colspan="5">Proýekt tapylmady, entäk goşulmandyr</th>
+                                        <th colspan="6">Proýekt tapylmady, entäk goşulmandyr</th>
                                     </tr>
                                 @endforelse
                                 </tbody>
